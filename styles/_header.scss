@@ -1,0 +1,28 @@
+header {
+    width: 100%;
+    max-width: 90rem;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    img {
+        width: 90px;
+    }
+    button {
+        padding: 0.4em 2em;
+        font-size: 0.8rem;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 4px var(--grayishBlue);
+        color: black;
+    }
+}
+
+
+
+
+
