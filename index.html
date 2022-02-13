@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>landing page </title>
+  <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+
+<body>
+
+  <!-- header started -->
+  <header class="px">
+    <a href="#"><img src="./images/logo.svg" alt="landing page logo"></a>
+    <button type="button">
+      Try it free
+    </button>
+  </header>
+  <!-- header ended -->
+
+  <!-- hero section started -->
+  <div class="hero px">
+    <section class="wrapper">
+      <div class="hero-left_container">
+        <div>
+          <h1>Build the community <br>
+            your fans will love</h1>
+          <p>
+            re-imagines the way we build communities. you have a voice, but so does your audience. Create connecitons with your users as you engage in genuine discussion
+          </p>
+          <button type="button">
+            Get started for free
+          </button>
+        </div>
+      </div>
+      <div class="hero-right_container">
+        <div>
+          <img src="./images/illustration-mockups.svg" alt="hero background image in mobile">
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  <!-- hero section ended -->
+
+  <!-- cards section started -->
+  <section class="wrapper cards">
+    <div class="card-wrapper">
+      <span></span><span></span><span></span><span></span>
+      <div class="card-image card-1-image">
+        <img src="./images/illustration-grow-together.svg" alt="grow together image" class="img">
+      </div>
+      <div class="card-1-content card-content">
+        <h2>
+          Grow together
+        </h2>
+        <p>
+          Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form
+        </p>
+      </div>
+    </div>
+
+    <div class="card-wrapper ">
+      <span></span><span></span><span></span><span></span>
+      <div class="card-image card-2-image">
+        <img src="./images//illustration-flowing-conversation.svg" alt="grow together image" class="img">
+      </div>
+      <div class="card-2-content card-content ">
+        <h2>
+          flowing conversation
+        </h2>
+        <p>
+          You would'nt paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow
+        </p>
+      </div>
+    </div>
+
+    <div class="card-wrapper">
+      <span></span><span></span><span></span><span></span>
+      <div class="card-image card-3-image">
+        <img src="./images//illustration-your-users.svg" alt="grow together image" class="img">
+      </div>
+      <div class="card-3-content card-content">
+        <h2>
+          your users
+        </h2>
+        <p>
+          It takes no time at all to integrate with our app's authentications solution. This means, once signed in to your app, your users can start chatting immediately.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- cards section ended -->
+
+<!-- footer started -->
+
+<footer>
+  <section class="wrapper footer px" >
+    <article class="spare"> 
+      <h2>
+        Ready to build the community?
+      </h2>
+      <button>
+        get started for free
+      </button>
+    </article>
+    <article class="footer-content">
+      <section class="contact-info">
+        <div class="footer-logo">
+          <img src="./images/logo.svg" alt="">
+        </div>
+        <section>
+            <i class="fa-solid fa-location-dot"></i>
+            <span> Punjab Pakistan</span>
+        </section>
+        <section>
+          <i class="fa-solid fa-phone-volume"></i>
+          <span><a href="https://wa.me/+923247380834" target="_blank">+92324-7380834</a></span>
+        </section>
+        <section>
+          <i class="fa-solid fa-envelope"></i>
+          <span><a href="mailto:jasghar186@gmail.com" target="_blank">
+            jasghar186@gmail.com
+          </a></span>
+        </section>
+      </section>
+      <section class="nav-links">
+        <div>
+        <ul>
+          <li>About us</li>
+          <li>What we do</li>
+          <li>FAQ's</li>
+        </ul>
+        <ul>
+          <li>Carrer</li>
+          <li>Blog</li>
+          <li>Contact us</li>
+        </ul>
+        </div>
+      </section>
+      <section class="social-links">
+        <div>
+          <i class="fa-brands fa-facebook social-icon-link"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-twitter social-icon-link"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-instagram social-icon-link"></i>
+        </div>
+      </section>
+    </article>
+    <article class="copyright">
+      ©copyright 2020, <span>Junaid Asghar</span> all rights reserved
+    </article>
+  </section>
+</footer>
+
+
+<!-- footer ended -->
+<script src="https://kit.fontawesome.com/4ea6e3ab0b.js" crossorigin="anonymous"></script>
+<script>
+  let icon = document.querySelectorAll(".social-icon-link") ;
+  for(i=0; i<icon.length; i++) {
+    icon[i].onclick = function () {
+      alert("Sorry no social links found, but you can reach me out by my Phone number or my email address which you can find in footer thanks")
+      }
+  }
+</script>
+</body>
+
+</html>
